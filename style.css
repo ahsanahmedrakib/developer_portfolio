@@ -1,53 +1,90 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.orange_color span{
-    color: orange;
+.orange_color span {
+  color: orange;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
+.flex {
+  display: flex;
+  margin-bottom: 100px;
 }
-.first_right{
-    width: 50%;
-    padding-left: 5%;
+.first_right {
+  width: 50%;
+  padding-left: 5%;
 }
-.first_left{
-    width: 50%;
-    padding-left: 5%;
+.first_left {
+  width: 50%;
+  padding-left: 5%;
 }
-.first_left img{
-    width: 80%;
+.first_left img {
+  width: 80%;
 }
-.link_button{
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(192, 119, 71), tomato);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+#first {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.second_image,
+.second_content {
+  width: 50%;
+}
+.second_content {
+  margin-right: 150px;
+}
+.second_image img {
+  width: 80%;
+}
+.second {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.third_c {
+  width: 40%;
+  box-shadow: 10px 10px 30px black;
+  margin: 5% 5%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#third_c_right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#third_c_left{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(236, 79, 62), tomato);
+    border-image-slice: 1;
+}
+
+.third_c h2{
+    font-size: 40px;
+}
+.orange_color {
+  color: orange;
+}
+.footer{
+    text-align: center;
+    color: gray;
+}
+.footer a{
     text-decoration: none;
-    background-image: linear-gradient(rgb(192, 119, 71), tomato);
-    color: white;
-    font-weight: bold
-    ;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-#first{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-.second_image, 
-.second_content{
-    width: 50%;
-}
-.second_content{
-    padding-right: 150x;
-}
-.second_image img{
-    width: 80%;
-}
-.second{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    color: gray;
 }
