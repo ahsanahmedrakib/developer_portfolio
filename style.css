@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .first_right{
     width: 50%;
@@ -20,7 +21,7 @@ section{
     padding-left: 5%;
 }
 .first_left img{
-    width: 100%;
+    width: 80%;
 }
 .link_button{
     text-decoration: none;
@@ -34,4 +35,19 @@ section{
 #first{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second_image, 
+.second_content{
+    width: 50%;
+}
+.second_content{
+    padding-right: 150x;
+}
+.second_image img{
+    width: 80%;
+}
+.second{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
